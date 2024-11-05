@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+:root{
+    --font01: Verdana, Sans-Serif;
+    --font02: 'Sriracha', cursive;
+    --font03: 'Passion One', cursive
+}
+
+body{
+    background-color: darkgray;
+    font-family: var(--font01);
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 10vh;
+    text-transform: capitalize;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    height: 100vh;
+    line-height: 30px;
+    padding: 40px;
+    font-size: 3vh;
+
+}
+.image{
+    background-color: bisque;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.418);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.image p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+
+}
+p{
+    line-height: 3.3rem;
+}
+#girassol{
+    background-image: url(/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+    
+}
+#book{
+    background-image: url(/imagens/background002.jpg);
+}
+
+.default{
+    background-color: white;
+}
